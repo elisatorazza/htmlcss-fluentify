@@ -10,21 +10,17 @@ body {
 /* generali header */
 header {
   background-color: #0c325a;
-  height: 400px;
   font-size: 20px;
+  height: 500px;
 }
 header .header-top::after {
   content: "";
   display: block;
   clear: both;
 }
-.header-top {
- position:relative;
-}
 .container {
   width: 80%;
   margin: auto;
-  height: 70px;
 }
 div .box {
   float: left;
@@ -81,4 +77,21 @@ button.piano {
   background-color: #7CBB02;
 }
 /* /menu login */
+/* /header-title */
+div.header-title {
+  width: 80%;
+  margin-left: auto;
+  background-image: url(../img/background-header.png);
+  /* height: 1000px; */
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.header-title h1 {
+  color:white;
+}
+button.second {
+  font-size: 30px;
+  padding:20px 80px;
+}
+
 /* /header */

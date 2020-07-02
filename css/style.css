@@ -109,9 +109,7 @@ p {
   color:#808080;
 }
 /* /geyraw */
-.formazione {
-
-}
+/* stile colonne */
 .formazione::after {
   content: "";
   display: block;
@@ -138,6 +136,4 @@ hr {
   width: 20%;
   margin: auto;
 }
-.progressi {
-
-}
+/* /stile colonne */

@@ -7,6 +7,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 /* header */
+/* generali header */
 header {
   background-color: #0c325a;
   height: 400px;
@@ -20,9 +21,6 @@ header .header-top::after {
 .header-top {
  position:relative;
 }
-.logo img {
-  vertical-align: middle
-}
 .container {
   width: 80%;
   margin: auto;
@@ -31,14 +29,17 @@ header .header-top::after {
 div .box {
   float: left;
   line-height: 70px;
-  margin-right: 2%;
+}
+/* /generali header */
+/* logo */
+.logo img {
+  vertical-align: middle
 }
 div.logo {
   width: 10%;
 }
-nav.header-menu-left {
-  width: 50%;
-}
+/* /logo */
+/* generali lista */
 .first-ul {
   list-style: none;
   text-align: right;
@@ -53,16 +54,31 @@ nav.header-menu-left {
   text-decoration: none;
   text-transform: uppercase;
 }
+/* /generali lista */
+/* main menu */
+nav.header-menu-left {
+  width: 45%;
+}
+/* /main menu */
+/* menu login */
 nav.header-menu-right {
-  width: 36%;
+  width: 45%;
   margin-right: 0;
 }
 .header-menu-right .first-ul {
   text-align: right;
 }
-button .login {
-  font-size: 20px;
+button.login {
+  font-size: 18px;
   background-color: #0c325a;
+  color: white;
   border: 1px solid white;
+  padding: 10px 40px;
+  border-radius: 10px;
+  text-transform: uppercase;
 }
+button.piano {
+  background-color: #7CBB02;
+}
+/* /menu login */
 /* /header */

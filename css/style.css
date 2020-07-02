@@ -94,5 +94,17 @@ button.second {
   font-size: 20px;
   padding: 30px;
 }
-
 /* /header */
+/* main */
+/* greyraw */
+.greyraw {
+  height: 150px;
+  background-color: #D3D3D3;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  padding-top: 20px;
+}
+.greyraw p {
+  color:#808080;
+}

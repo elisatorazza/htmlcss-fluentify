@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+/* header */
+header {
+  background-color: blue;
+  height: 400px;
+}
+header .header-top::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+div .box {
+  float: left;
+  height: 70px;
+  line-height: 70px;
+  margin: 0, 10px;
+}
+div.logo {
+  /* height:60px; */
+}
+nav.header-menu-left {
+
+}
+.first-ul {
+  list-style: none;
+}
+.first-ul li {
+  display: inline-block;
+}
+.first-ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0, 7px;
+}
+nav.header-menu-right {
+  /* float:right; */
+}
+/* /header */

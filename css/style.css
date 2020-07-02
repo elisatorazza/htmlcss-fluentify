@@ -129,21 +129,30 @@ section.method .column {
   text-align: center;
 }
 .column h3, p {
-  font-size: 28px;
+  font-size: 21px;
   line-height: 45px;
 }
-hr {
+.method hr {
   width: 20%;
   margin: auto;
 }
 /* /stile colonne */
 /* terza sezione */
-.graphic {
-  height: 200px;
-  background-color: red
+.mountain {
+  float:left;
 }
 .level {
-  height: 200px;
-  background-color: blue
+  float: left;
+  width: 50%;
+}
+.method h2 {
+  font-size: 35px;
+}
+.discover {
+  padding:10px;
+}
+div.discover p {
+  margin-bottom:40px;
+}
 }
 /* /terza sezione */

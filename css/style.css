@@ -105,6 +105,39 @@ button.second {
   font-size: 25px;
   padding-top: 20px;
 }
-.greyraw p {
+p {
   color:#808080;
+}
+/* /geyraw */
+.formazione {
+
+}
+.formazione::after {
+  content: "";
+  display: block;
+  clear:both;
+}
+section.method h3 {
+  color: #7CBB02;
+  width: 80%;
+  margin-bottom: 20px;
+}
+section.method p {
+  margin-top: 20px;
+}
+section.method .column {
+  float:left;
+  width: calc(100%/3);
+  text-align: center;
+}
+.column h3, p {
+  font-size: 28px;
+  line-height: 45px;
+}
+hr {
+  width: 20%;
+  margin: auto;
+}
+.progressi {
+
 }

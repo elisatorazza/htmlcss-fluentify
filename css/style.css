@@ -110,7 +110,7 @@ p {
 }
 /* /geyraw */
 /* stile colonne */
-.formazione::after {
+.method::after {
   content: "";
   display: block;
   clear:both;
@@ -137,3 +137,13 @@ hr {
   margin: auto;
 }
 /* /stile colonne */
+/* terza sezione */
+.graphic {
+  height: 200px;
+  background-color: red
+}
+.level {
+  height: 200px;
+  background-color: blue
+}
+/* /terza sezione */

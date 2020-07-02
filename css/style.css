@@ -25,6 +25,7 @@ header .header-top::after {
 .container {
   width: 80%;
   margin: auto;
+  position: relative;
 }
 div .box {
   float: left;
@@ -154,5 +155,62 @@ section.method .column {
 div.discover p {
   margin-bottom:40px;
 }
+.graphic {
+  padding: 30px 0;
 }
 /* /terza sezione */
+/* footer */
+footer {
+  height: 200px;
+  background-color: #D3D3D3;
+}
+footer::after {
+  content :"";
+  display: block;
+  clear: both;
+}
+footer .container {
+  height: 100%;
+}
+/* prima colonna */
+.struttura {
+  float: left;
+  width:60%;
+  line-height: 200px;
+}
+footer h2 {
+  font-size: 30px;
+}
+/* /prima colonna */
+/* seconda colonna */
+.select {
+  float:left;
+  width: 20%;
+  line-height: 200px;
+  color: grey;
+  text-align: right;
+}
+.tendina {
+  margin-left: 20px;
+  background-color: #D3D3D3;
+  border: none;
+  border-bottom: 1px solid grey;
+  color: grey;
+  width: 140px;
+  height: 30px;
+}
+/* /seconda colonna */
+/* terza colonna */
+.check {
+  position:absolute;
+  right: 0;
+  width: 20%;
+  text-align: center;
+  top: 40%;
+}
+footer .last {
+  margin:2%;
+  border: none;
+  padding: 10px 20px;
+}
+/* /terza colonna */
